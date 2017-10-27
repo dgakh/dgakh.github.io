@@ -26,42 +26,10 @@ Licence URI: http://www.os-templates.com/template-terms
   </div>
 </div>
 
-<div class="wrapper row1">
-  <header id="header" class="hoc clear"> 
-    <div id="logo" class="fl_left">
-      <h1><a href="../index_ru.html">Дмитрий Гах</a></h1>
-    </div>
-  </header>
-</div>
+<div class="wrapper row1"><div data-include="header01_ru"></div></div>
+<div class="wrapper row2"><div data-include="menu01_ru"></div></div>
 
 <div class="bgded" style="background-image:url('../images/p01_title_01.jpg');"> 
-  <div class="wrapper row2">
-    <nav id="mainav" class="hoc clear"> 
-      <ul class="clear">
-        <li class="active"><a href="../index_ru.html">Начало</a></li>
-        <li><a class="drop" href="p01_intellect_ru.html">Интеллект</a>
-          <ul>
-            <li><a href="p01_for_students_ru.html">Студентам</a></li>
-            <li><a href="p01_trainings_seminars_ru.html">Тренинги и семинары</a></li>
-            <li><a href="p01_research_ru.html">Исследования</a></li>
-          </ul>
-        </li>
-        <li><a class="drop" href="p01_body_ru.html">Тело</a>
-          <ul>
-            <li><a href="p01_wushu_ru.html">Простое ушу</a></li>
-            <li><a href="p01_yoga_ru.html">Простая йога</a></li>
-          </ul>
-        </li>
-        <li><a class="drop" href="p01_soul_ru.html">Душа</a>
-          <ul>
-            <li><a href="p01_meditation_ru.html">Простая медитация</a></li>
-            <li><a href="p01_novels_poems_ru.html">Произведения</a></li>
-            <li><a href="p01_journeys_ru.html">Путешествия</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
   <div class="wrapper overlay">
     <div id="breadcrumb" class="hoc clear"> 
       <ul>
@@ -111,32 +79,14 @@ Licence URI: http://www.os-templates.com/template-terms
   </main>
 </div>
 
-<div class="wrapper row4">
-  <footer id="footer" class="hoc clear"> 
-    <div class="one_third first">
-      <h6 class="heading">Контактная информация</h6>
-      <ul class="nospace btmspace-30 linklist contact">
-        <li><i class="fa fa-envelope-o"></i> dmgakh@gmail.com</li>
-      </ul>
-      <ul class="faico clear">
-        <li><a class="faicon-facebook" href="https://www.facebook.com/dmitriy.gakh"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="faicon-linkedin" href="https://www.linkedin.com/in/dgakh"><i class="fa fa-linkedin"></i></a></li>
-      </ul>
-    </div>
-  </footer>
-</div>
-
-<div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
-    <p class="fl_left">Авторские права &copy; 2017 - <a href="#">Дмитрий Гах</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-  </div>
-</div>
+<div class="wrapper row4"><div data-include="footer01_ru"></div></div>
+<div class="wrapper row5"><div data-include="copyright01_ru"></div></div>
 
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 
 <script src="../layout/scripts/jquery.min.js"></script>
 <script src="../layout/scripts/jquery.backtotop.js"></script>
 <script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<script>$(function(){ var includes = $('[data-include]'); jQuery.each(includes, function(){var file='../pages_p/'+$(this).data('include')+'.html'; $(this).load(file);});});</script>
 </body>
 </html>
